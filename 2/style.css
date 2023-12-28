@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    font-weight: 100;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url('./imagens/WhatsApp\ Image\ 2023-11-23\ at\ 07.18.10.jpeg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner>header {
+    padding: 30px 15px;
+}
+
+.banner header h1 {
+    font-size: 23px;
+    color: rgb(125, 125, 226)
+}
+
+.banner h1 span {
+    color: white
+}
+
+.banner-content {
+    display: grid;
+    height: 65%;
+    place-items: center;
+}
+
+
+
+.banner-content article {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.banner-content article h1,
+.banner-content article p {
+
+    color: white;
+    margin-bottom: 20px;
+}
+
+.banner-content article {
+    width: 65%;
+}
+
+.banner-content article h1 {
+    font-size: 2.3em;
+}
+
+.banner-content article p {
+    line-height: 1.5;
+
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+
+}
+
+.button-blue {
+    background-color: rgb(25, 25, 155);
+    color: white;
+}
+
+.card {
+    padding: 3.5% 10%;
+    height: auto;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+
+
+}
+
+.card h2 {
+    margin-bottom: 35px;
+}
+
+.card p {
+    margin-bottom: 2em;
+    color: #999999;
+    text-align: justify;
+
+}
+
+.icon {
+    border-radius: 100%;
+    width: 100%;
+
+}
+
+.card>img {
+    border-radius: 100%;
+    position: center;
+
+}
+
+.card {
+    background: white;
+}
+
+.card>article {
+    text-align: justify;
+
+
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: .3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button {
+    width: 180px;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    background-color: #3498db;
+    transition: .3s;
+}
+
+.card article p {
+    line-height: 1.5;
+    text-align: justify;
+
+}
+
+.card2 {
+    background-color: #3498db;
+    color: #fff;
+    flex-direction: row-reverse;
+}
+
+.card2 {
+    padding: 3.5% 10%;
+    height: auto;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+
+.card2>img {
+    border-radius: 100%;
+    position: center;
+    border: 1px solid white;
+
+}
+
+.card2 h3 {
+    font-weight: 500;
+    font-size: 1.8em;
+    margin-bottom: 35px;
+}
+
+.card2 p {
+    margin-bottom: 35px;
+}
+
+p {
+    line-height: 1.8em;
+
+
+}
+
+.button-branco {
+    background-color: white;
+    color: #3498db;
+
+}
+
+
+
+.icon {
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 3em;
+    width: 80%;
+
+}
+.card3{
+    background-color: white;
+}
+.card3 p {
+    font-size: 1em;
+    text-align: center;
+    width: 80%;
+    color: #999999;
+    margin: 30px;
+}
+.card3{padding:  3.5% 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);}
+    #footer{
+        padding: 6em 2em 1em 2em;
+    text-align: center;
+    }
+
+
